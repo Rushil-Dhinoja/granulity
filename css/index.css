@@ -193,7 +193,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  position: relative; }
+  position: relative;
+  margin-top: 0.7rem; }
   .radio-group div label input:checked ~ .custom-radio {
     background-color: #34c47e;
     border: 1px solid #34c47e; }

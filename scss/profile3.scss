@@ -82,6 +82,7 @@
     align-items: center;
     justify-content: space-between;
     position: relative;
+    margin-top: 0.7rem;
     label {
       input:checked ~ .custom-radio {
         background-color: #34c47e;
