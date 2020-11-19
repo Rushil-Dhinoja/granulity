@@ -1,0 +1,14 @@
+/** @format */
+.index-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto; }
+  .index-container div {
+    background-color: #bfbfbf;
+    margin: 10px 25px;
+    width: 240px;
+    padding: 10px 20px;
+    border-radius: 4px; }
+    .index-container div a {
+      color: black;
+      text-decoration: none; }
