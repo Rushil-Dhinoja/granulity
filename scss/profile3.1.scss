@@ -25,6 +25,7 @@
     p {
       font-family: 'Raleway', sans-serif;
       font-weight: 600;
+      cursor: pointer;
       &:nth-of-type(5) {
         color: red !important;
       }
@@ -37,6 +38,9 @@
       &:not(:first-child) {
         padding: 1.5rem 0;
         color: #050505;
+        &:hover {
+          background-color: #ccc1ff91;
+        }
       }
     }
     &:nth-of-type(2) {
@@ -47,6 +51,7 @@
       font-family: 'Raleway', sans-serif;
       font-weight: 700;
       cursor: pointer;
+
       a {
         color: #000;
         text-decoration: none;

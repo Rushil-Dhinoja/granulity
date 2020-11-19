@@ -246,7 +246,8 @@ body {
     font-size: 1.6rem; }
     .actions div p {
       font-family: 'Raleway', sans-serif;
-      font-weight: 600; }
+      font-weight: 600;
+      cursor: pointer; }
       .actions div p:nth-of-type(5) {
         color: red !important; }
       .actions div p:nth-of-type(1) {
@@ -256,6 +257,8 @@ body {
       .actions div p:not(:first-child) {
         padding: 1.5rem 0;
         color: #050505; }
+        .actions div p:not(:first-child):hover {
+          background-color: #ccc1ff91; }
     .actions div:nth-of-type(2) {
       margin-top: 1rem;
       margin-bottom: 2rem;
