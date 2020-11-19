@@ -105,10 +105,14 @@ body {
 /** @format */
 .top-navbar {
   display: flex;
-  justify-content: space-around;
-  align-items: center; }
+  align-items: center;
+  justify-content: space-between; }
   .top-navbar a {
     text-decoration: none; }
+    .top-navbar a:nth-of-type(1) {
+      margin-left: 2rem; }
+    .top-navbar a:nth-of-type(3) {
+      margin-right: 2rem; }
     .top-navbar a div {
       color: #ffffff;
       padding: 2rem 0;
@@ -117,3 +121,67 @@ body {
     .top-navbar a:nth-of-type(2) div {
       font-size: 2rem;
       font-weight: 600; }
+
+/** @format */
+.header-inverse {
+  background: transparent linear-gradient(180deg, #380e7f 0%, #6915cf 100%) 0% 0% no-repeat; }
+  .header-inverse .profile-header-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0 6rem 0;
+    color: #fff; }
+    .header-inverse .profile-header-body p {
+      font-family: 'Raleway', sans-serif;
+      font-size: 2rem; }
+      .header-inverse .profile-header-body p:nth-of-type(1) {
+        font-weight: 700; }
+      .header-inverse .profile-header-body p:nth-of-type(2) {
+        font-weight: 400;
+        text-align: center;
+        margin-top: 2rem; }
+
+.profile-form {
+  margin-top: -4rem;
+  background-color: #fff;
+  height: 200px;
+  border-radius: 36px 36px 0 0;
+  padding: 4rem;
+  display: flex;
+  flex-direction: column; }
+  .profile-form form .radio-group div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+  .profile-form form .input-group {
+    display: flex;
+    flex-direction: column; }
+    .profile-form form .input-group:not(:last-child) {
+      margin-bottom: 1rem; }
+    .profile-form form .input-group label {
+      margin-bottom: 0.5rem;
+      font-size: 1.4rem;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 400;
+      color: #000000; }
+      .profile-form form .input-group label.light-label {
+        color: #4d4d4d; }
+    .profile-form form .input-group input {
+      border: 0;
+      background-color: #f2f2f2;
+      font-size: 1.4rem;
+      padding: 0.3rem 0; }
+  .profile-form .profile-cta {
+    background: transparent linear-gradient(180deg, #6915cf 0%, #380e7f 100%) 0% 0% no-repeat;
+    color: #fff;
+    font-size: 1.8rem;
+    border-radius: 5px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    padding: 1rem 5rem;
+    box-shadow: 0px 3px 6px #00000029;
+    cursor: pointer;
+    align-self: center;
+    justify-self: center;
+    margin-top: 2rem; }
