@@ -39,9 +39,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 3rem 0 5rem 0;
+    padding: 2rem 0 4rem 0;
     font-size: 2rem;
     color: #fff; }
+    .header .checkmark span {
+      color: #380e7f;
+      font-size: 4rem;
+      padding: 1.5rem;
+      border-radius: 50%;
+      background-color: #fff; }
 
 .wallet-confirm-body {
   margin: 3rem 1.5rem; }
