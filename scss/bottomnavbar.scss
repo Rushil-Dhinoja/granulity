@@ -1,0 +1,19 @@
+/** @format */
+
+.bottom-navbar {
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: #6915cf;
+  width: 100%;
+  a {
+    text-decoration: none;
+    div {
+      color: #ffffff;
+      font-size: 1.2rem;
+      padding: 2rem 0;
+    }
+  }
+}

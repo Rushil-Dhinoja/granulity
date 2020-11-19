@@ -4,15 +4,19 @@
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
-  div {
-    a {
-      color: black;
-      text-decoration: none;
+  a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+
+    div {
+      background-color: #dfdfdf;
+      margin: 10px 25px;
+      width: 240px;
+      padding: 10px 20px;
+      border-radius: 4px;
     }
-    background-color: #bfbfbf;
-    margin: 10px 25px;
-    width: 240px;
-    padding: 10px 20px;
-    border-radius: 4px;
   }
 }

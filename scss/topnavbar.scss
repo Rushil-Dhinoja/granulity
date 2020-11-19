@@ -1,0 +1,22 @@
+/** @format */
+
+.top-navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  a {
+    text-decoration: none;
+    div {
+      color: #ffffff;
+      padding: 2rem 0;
+      font-size: 1.4rem;
+      font-family: 'Ralewat', sans-serif;
+    }
+    &:nth-of-type(2) {
+      div {
+        font-size: 2rem;
+        font-weight: 600;
+      }
+    }
+  }
+}

@@ -1,0 +1,71 @@
+/** @format */
+
+.header {
+  background: transparent
+    linear-gradient(180deg, #380e7f 0%, #6915cf 100%) 0% 0%
+    no-repeat;
+  border-radius: 0 0 24px 24px;
+  .checkmark {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0 5rem 0;
+    font-size: 2rem;
+    color: #fff;
+  }
+}
+
+.wallet-confirm-body {
+  margin: 3rem 1.5rem;
+  .shadow {
+    height: 2px;
+    box-shadow: 0px 3px 6px #00000029;
+  }
+  .content-body {
+    margin: 3rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    p {
+      font-size: 2.8rem;
+      text-align: center;
+      margin-bottom: 4rem;
+      font-family: 'Raleway', sans-serif;
+      color: #380e7f;
+      font-weight: 400;
+    }
+    div {
+      background: transparent
+        linear-gradient(180deg, #6915cf 0%, #380e7f 100%) 0%
+        0% no-repeat;
+      color: #fff;
+      font-size: 2.2rem;
+      border-radius: 5px;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 600;
+      padding: 1rem 8rem;
+      box-shadow: 0px 3px 6px #00000029;
+      cursor: pointer;
+    }
+  }
+}
+
+.wallet-confirm-footer {
+  margin: 3rem 6rem;
+  display: flex;
+  flex-direction: column;
+
+  p {
+    font-size: 2rem;
+    text-align: center;
+    color: #380e7f;
+    &:nth-of-type(2) {
+      margin-top: 2rem;
+      span {
+        cursor: pointer;
+        text-decoration: underline;
+        color: #0021f7;
+      }
+    }
+  }
+}
