@@ -62,13 +62,17 @@
         linear-gradient(180deg, #6915cf, #350b68) no-repeat;
       font-size: 1.4rem;
       color: #fff;
-      padding: 1rem 0 0.5rem 0;
+      padding: 2rem 0 0.5rem 0;
       text-align: center;
       font-family: 'Raleway', sans-serif;
       font-weight: 600;
       margin: 0.3rem 0.3rem;
       padding-top: 0.3rem;
       border-radius: 7px 7px 0 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 25px;
     }
   }
 }
