@@ -406,7 +406,13 @@ label p {
     color: #380e7f;
     font-size: 1.4rem;
     font-family: 'Raleway', sans-serif;
-    font-weight: 600; }
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between; }
+    .wallet-two-transaction-history .transaction-heading img {
+      width: 15px;
+      height: 15px;
+      margin-right: 1.5rem; }
   .wallet-two-transaction-history .transaction-history {
     display: flex;
     flex-direction: column;
@@ -568,3 +574,15 @@ label p {
         font-weight: 600;
         cursor: pointer;
         margin-top: 1rem; }
+
+.reffral-history {
+  margin: 2rem 2rem 10rem 2rem;
+  background-color: rgba(137, 158, 255, 0.2);
+  border-radius: 15px;
+  border: 1px solid #380e7f;
+  padding: 2rem 2rem 1rem 2rem; }
+  .reffral-history-heading {
+    display: flex;
+    justify-content: space-between; }
+  .reffral-history-history table tr td {
+    width: 50%; }

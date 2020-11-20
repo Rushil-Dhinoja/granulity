@@ -146,3 +146,24 @@
     }
   }
 }
+
+.reffral-history {
+  margin: 2rem 2rem 10rem 2rem;
+  background-color: rgba($color: #899eff, $alpha: 0.2);
+  border-radius: 15px;
+  border: 1px solid #380e7f;
+  padding: 2rem 2rem 1rem 2rem;
+  &-heading {
+    display: flex;
+    justify-content: space-between;
+  }
+  &-history {
+    table {
+      tr {
+        td {
+          width: 50%;
+        }
+      }
+    }
+  }
+}
