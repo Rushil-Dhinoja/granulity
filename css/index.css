@@ -265,14 +265,16 @@ label p {
   top: 0;
   left: 0;
   background-color: rgba(0, 0, 0, 0.5);
-  z-index: 999; }
+  z-index: 999;
+  overflow: hidden; }
 
 .actions {
   position: absolute;
   z-index: 1000;
   bottom: 0;
   left: 0;
-  width: 100%; }
+  width: 100%;
+  overflow: hidden; }
   .actions div {
     background-color: white;
     margin: 0 2rem;
