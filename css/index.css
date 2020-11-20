@@ -660,7 +660,7 @@ label p {
         margin: 1rem 0; }
 
 .campaign-list {
-  height: 300px;
+  height: 400px;
   margin: -2.5rem 1rem 0 1rem;
   border-radius: 7px;
   background-color: #fff;
@@ -683,3 +683,45 @@ label p {
       align-items: center;
       justify-content: center;
       height: 25px; }
+  .campaign-list-data {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 4rem;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600; }
+    .campaign-list-data-heading {
+      display: flex;
+      justify-content: space-between; }
+      .campaign-list-data-heading span:nth-of-type(1) {
+        margin-left: 1.5rem; }
+      .campaign-list-data-heading span:nth-of-type(2) {
+        margin-right: 2.5rem; }
+    .campaign-list-data-table {
+      display: flex;
+      flex-direction: column; }
+      .campaign-list-data-table table {
+        flex-direction: column; }
+        .campaign-list-data-table table tr {
+          border-radius: 30px;
+          padding: 1rem;
+          margin-top: 0.5rem;
+          display: flex;
+          justify-content: space-between; }
+          .campaign-list-data-table table tr:nth-child(odd) {
+            background-color: #ccc1ff; }
+          .campaign-list-data-table table tr:nth-child(even) {
+            background-color: #f5f6fd; }
+          .campaign-list-data-table table tr td:nth-of-type(1), .campaign-list-data-table table tr td:nth-of-type(2) {
+            display: flex;
+            align-items: center; }
+            .campaign-list-data-table table tr td:nth-of-type(1) img, .campaign-list-data-table table tr td:nth-of-type(2) img {
+              width: 15px;
+              height: 15px;
+              margin-right: 1rem; }
+            .campaign-list-data-table table tr td:nth-of-type(1) span, .campaign-list-data-table table tr td:nth-of-type(2) span {
+              margin-right: 1rem; }
+  .campaign-list .scroll-arrow {
+    align-self: center;
+    color: #6915cf;
+    margin-top: 1rem; }
