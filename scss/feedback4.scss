@@ -1,5 +1,10 @@
 /** @format */
 
+.header {
+  background: transparent
+    linear-gradient(180deg, #6915cf, #350b68) no-repeat;
+}
+
 .feedback-header-body {
   display: flex;
   flex-direction: column;
