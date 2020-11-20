@@ -34,7 +34,7 @@ body {
 /** @format */
 .header {
   background: transparent linear-gradient(180deg, #380e7f 0%, #6915cf 100%) 0% 0% no-repeat;
-  border-radius: 0 0 24px 24px; }
+  border-radius: 0 0 36px 36px; }
   .header .checkmark {
     display: flex;
     justify-content: center;
@@ -120,7 +120,7 @@ body {
         width: 20px;
         height: 20px; }
       .bottom-navbar a div p {
-        margin-top: 1rem; }
+        margin-top: 0.4rem; }
         .bottom-navbar a div p.active {
           color: #fbb03b; }
 
@@ -303,7 +303,7 @@ label p {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-bottom: 3rem; }
+  padding: 3rem 0; }
   .header .wallet-header-body p {
     font-family: 'Raleway', sans-serif;
     color: #fff; }
@@ -312,8 +312,8 @@ label p {
       font-weight: 300; }
     .header .wallet-header-body p:nth-of-type(2) {
       font-size: 3.6rem;
-      font-weight: 400;
-      margin: 2rem 0 0 0; }
+      font-weight: 700;
+      margin: 1.5rem 0 0 0; }
 
 .wallet-two-body {
   margin: 3rem 1.5rem; }
@@ -364,11 +364,11 @@ label p {
 .payment-input-head {
   margin-right: 0 !important;
   font-size: 1rem !important;
-  font-weight: 600; }
+  font-weight: 700; }
 
 .payment-head {
   font-size: 1rem !important;
-  font-weight: 600; }
+  font-weight: 700; }
 
 .wallet-two-cta {
   background: transparent linear-gradient(180deg, #6915cf 0%, #380e7f 100%) 0% 0% no-repeat;
@@ -381,7 +381,8 @@ label p {
   box-shadow: 0px 3px 6px #00000029;
   cursor: pointer;
   align-self: center;
-  justify-self: center; }
+  justify-self: center;
+  margin-top: 1rem; }
 
 .wallet-two-transaction-history {
   margin: 2rem 2rem 10rem 2rem;
@@ -403,7 +404,7 @@ label p {
         font-family: 'Raleway', sans-serif;
         color: #380e7f;
         font-weight: 400;
-        font-size: 1.2rem;
+        font-size: 1.4rem;
         text-align: left;
         padding-bottom: 0.5rem; }
         .wallet-two-transaction-history .transaction-history table tr th:nth-of-type(3) {
@@ -412,7 +413,7 @@ label p {
         font-family: 'Raleway', sans-serif;
         color: #380e7f;
         font-weight: 400;
-        font-size: 1.2rem;
+        font-size: 1.4rem;
         padding-bottom: 1rem; }
         .wallet-two-transaction-history .transaction-history table tr td.recived {
           color: #00ff00;

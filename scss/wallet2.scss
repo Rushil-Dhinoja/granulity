@@ -6,7 +6,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-bottom: 3rem;
+    padding: 3rem 0;
     p {
       font-family: 'Raleway', sans-serif;
       color: #fff;
@@ -16,8 +16,8 @@
       }
       &:nth-of-type(2) {
         font-size: 3.6rem;
-        font-weight: 400;
-        margin: 2rem 0 0 0;
+        font-weight: 700;
+        margin: 1.5rem 0 0 0;
       }
     }
   }
@@ -90,11 +90,11 @@
 .payment-input-head {
   margin-right: 0 !important;
   font-size: 1rem !important;
-  font-weight: 600;
+  font-weight: 700;
 }
 .payment-head {
   font-size: 1rem !important;
-  font-weight: 600;
+  font-weight: 700;
 }
 .wallet-two-cta {
   background: transparent
@@ -110,6 +110,7 @@
   cursor: pointer;
   align-self: center;
   justify-self: center;
+  margin-top: 1rem;
 }
 .wallet-two-transaction-history {
   margin: 2rem 2rem 10rem 2rem;
@@ -134,7 +135,7 @@
           font-family: 'Raleway', sans-serif;
           color: #380e7f;
           font-weight: 400;
-          font-size: 1.2rem;
+          font-size: 1.4rem;
           text-align: left;
           padding-bottom: 0.5rem;
 
@@ -146,7 +147,7 @@
           font-family: 'Raleway', sans-serif;
           color: #380e7f;
           font-weight: 400;
-          font-size: 1.2rem;
+          font-size: 1.4rem;
           padding-bottom: 1rem;
           &.recived {
             color: #00ff00;
