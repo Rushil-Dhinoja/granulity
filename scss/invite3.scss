@@ -104,7 +104,7 @@
 }
 
 .invite-three-body {
-  margin: 9rem 1.5rem 3rem 1.5rem;
+  margin: 9rem 1.5rem 2rem 1.5rem;
   .shadow {
     height: 2px;
     box-shadow: 0px 3px 6px #00000029;
@@ -148,7 +148,7 @@
 }
 
 .reffral-history {
-  margin: 2rem 2rem 10rem 2rem;
+  margin: 0rem 2rem 10rem 2rem;
   background-color: rgba($color: #899eff, $alpha: 0.2);
   border-radius: 15px;
   border: 1px solid #380e7f;
@@ -159,6 +159,9 @@
     display: flex;
     justify-content: space-between;
     margin-right: 1.5rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
   }
   &-list {
     display: flex;
