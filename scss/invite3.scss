@@ -152,17 +152,43 @@
   background-color: rgba($color: #899eff, $alpha: 0.2);
   border-radius: 15px;
   border: 1px solid #380e7f;
-  padding: 2rem 2rem 1rem 2rem;
+  padding: 2rem 0rem 1rem 2rem;
+  display: flex;
+  flex-direction: column;
   &-heading {
     display: flex;
     justify-content: space-between;
+    margin-right: 1.5rem;
   }
-  &-history {
+  &-list {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    max-height: 150px;
+    margin-top: 2rem;
     table {
-      display: flex;
+      width: 100%;
+      padding-right: 1rem;
       tr {
+        &:not(:last-child) {
+        }
         td {
-          width: 50%;
+          margin-bottom: 1.5rem;
+          font-size: 1.2rem;
+          font-family: 'Raleway', sans-serif;
+          &:nth-of-type(1) {
+            display: flex;
+            align-items: center;
+            img {
+              width: 14px;
+              height: 14px;
+              margin-right: 1rem;
+            }
+          }
+          &:nth-of-type(2) {
+            text-align: right;
+            padding: 0;
+          }
         }
       }
     }
