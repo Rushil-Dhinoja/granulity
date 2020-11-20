@@ -193,7 +193,8 @@ body {
       border: 0;
       background-color: #f2f2f2;
       font-size: 1.4rem;
-      padding: 1rem 0; }
+      padding: 1rem 0;
+      border-radius: 4px; }
   .profile-form .profile-cta {
     background: transparent linear-gradient(180deg, #6915cf 0%, #380e7f 100%) 0% 0% no-repeat;
     color: #fff;
@@ -686,7 +687,7 @@ label p {
   .campaign-list-data {
     display: flex;
     flex-direction: column;
-    padding: 1rem 4rem;
+    padding: 1rem 1rem;
     font-family: 'Raleway', sans-serif;
     font-size: 1.2rem;
     font-weight: 600; }
@@ -696,13 +697,14 @@ label p {
       .campaign-list-data-heading span:nth-of-type(1) {
         margin-left: 1.5rem; }
       .campaign-list-data-heading span:nth-of-type(2) {
-        margin-right: 2.5rem; }
+        margin-right: 3.5rem; }
     .campaign-list-data-table {
       display: flex;
       flex-direction: column; }
       .campaign-list-data-table table {
         flex-direction: column; }
         .campaign-list-data-table table tr {
+          font-family: 'Raleway', sans-serif;
           border-radius: 30px;
           padding: 1rem;
           margin-top: 0.5rem;
@@ -720,7 +722,7 @@ label p {
               height: 15px;
               margin-right: 1rem; }
             .campaign-list-data-table table tr td:nth-of-type(1) span, .campaign-list-data-table table tr td:nth-of-type(2) span {
-              margin-right: 1rem; }
+              margin-right: 2rem; }
   .campaign-list .scroll-arrow {
     align-self: center;
     color: #6915cf;
