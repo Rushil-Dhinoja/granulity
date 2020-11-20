@@ -48,3 +48,27 @@
     }
   }
 }
+.campaign-list {
+  height: 300px;
+  margin: -2.5rem 1rem 0 1rem;
+  border-radius: 7px;
+  background-color: #fff;
+  padding-top: 0.1rem;
+  box-shadow: 0 3px 6px #00000029;
+  div {
+    margin: 0.1rem;
+    p {
+      background: transparent
+        linear-gradient(180deg, #6915cf, #350b68) no-repeat;
+      font-size: 1.4rem;
+      color: #fff;
+      padding: 1rem;
+      text-align: center;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 600;
+      margin: 0.3rem 0.3rem;
+      padding-top: 0.3rem;
+      border-radius: 7px 7px 0 0;
+    }
+  }
+}
