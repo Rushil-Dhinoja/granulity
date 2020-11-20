@@ -435,10 +435,18 @@ label p {
         .wallet-two-transaction-history .transaction-history table tr td:nth-of-type(3) {
           text-align: right; }
 
-::-webkit-scrollbar-track {
-  background: #380e7f;
+::-webkit-scrollbar {
   width: 5px; }
+
+::-webkit-scrollbar-track {
+  background: #9ea9f0;
+  border-radius: 500px; }
 
 ::-webkit-scrollbar-thumb {
   background-color: #380e7f;
-  width: 5px; }
+  border-radius: 500px; }
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #380e7f;
+  border-radius: 500px; }
