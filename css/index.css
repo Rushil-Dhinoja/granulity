@@ -42,6 +42,8 @@ body {
     padding: 2rem 0 4rem 0;
     font-size: 2rem;
     color: #fff; }
+    .header .checkmark img {
+      width: 100px; }
     .header .checkmark span {
       color: #380e7f;
       font-size: 4rem;
