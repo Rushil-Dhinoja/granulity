@@ -180,9 +180,9 @@ body {
     display: flex;
     flex-direction: column; }
     .profile-form form .input-group:not(:last-child) {
-      margin-bottom: 1rem; }
+      margin-bottom: 2rem; }
     .profile-form form .input-group label {
-      margin-bottom: 0.5rem;
+      margin-bottom: 1rem;
       font-size: 1.4rem;
       font-family: 'Raleway', sans-serif;
       font-weight: 400;
@@ -193,7 +193,7 @@ body {
       border: 0;
       background-color: #f2f2f2;
       font-size: 1.4rem;
-      padding: 0.3rem 0; }
+      padding: 0.6rem 0; }
   .profile-form .profile-cta {
     background: transparent linear-gradient(180deg, #6915cf 0%, #380e7f 100%) 0% 0% no-repeat;
     color: #fff;
@@ -209,12 +209,14 @@ body {
     margin-top: 2rem;
     margin-bottom: 10rem; }
 
-.radio-group div {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  position: relative;
-  margin-top: 0.7rem; }
+.radio-group {
+  margin-right: 6rem; }
+  .radio-group div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 0.7rem; }
 
 label input:checked ~ .custom-radio {
   background-color: #34c47e;
@@ -225,7 +227,7 @@ label input:checked ~ .custom-radio:after {
   font-weight: 900;
   content: '\f00c';
   color: #fff;
-  font-size: 1.1rem;
+  font-size: 1rem;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -244,8 +246,15 @@ label input {
 
 label p {
   color: #969696;
-  font-size: 1.6rem;
-  margin-left: 2rem; }
+  font-size: 1.2rem;
+  margin-left: 2rem;
+  margin-top: 0.2rem; }
+
+.date-input {
+  color: #f2f2f2; }
+
+.date-input:focus {
+  color: #000000; }
 
 /** @format */
 .overlay {
@@ -308,7 +317,7 @@ label p {
     font-family: 'Raleway', sans-serif;
     color: #fff; }
     .header .wallet-header-body p:nth-of-type(1) {
-      font-size: 1.2rem;
+      font-size: 1.3rem;
       font-weight: 300; }
     .header .wallet-header-body p:nth-of-type(2) {
       font-size: 3.6rem;
@@ -389,7 +398,7 @@ label p {
   background-color: rgba(137, 158, 255, 0.2);
   border-radius: 15px;
   border: 1px solid #380e7f;
-  padding: 2rem 2rem 1rem 2rem; }
+  padding: 2rem 0rem 1rem 2rem; }
   .wallet-two-transaction-history .transaction-heading {
     color: #380e7f;
     font-size: 1.4rem;
@@ -397,7 +406,9 @@ label p {
     font-weight: 600; }
   .wallet-two-transaction-history .transaction-history {
     display: flex;
-    flex-direction: column; }
+    flex-direction: column;
+    overflow-y: scroll;
+    max-height: 150px; }
     .wallet-two-transaction-history .transaction-history table {
       margin-top: 2rem; }
       .wallet-two-transaction-history .transaction-history table tr th {
@@ -423,3 +434,11 @@ label p {
           padding-left: 1rem; }
         .wallet-two-transaction-history .transaction-history table tr td:nth-of-type(3) {
           text-align: right; }
+
+::-webkit-scrollbar-track {
+  background: #380e7f;
+  width: 5px; }
+
+::-webkit-scrollbar-thumb {
+  background-color: #380e7f;
+  width: 5px; }
