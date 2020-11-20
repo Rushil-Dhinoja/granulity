@@ -2,8 +2,7 @@
 
 .header {
   background: transparent
-    linear-gradient(180deg, #380e7f 0%, #6915cf 100%) 0% 0%
-    no-repeat;
+    linear-gradient(180deg, #380e7f, #6915cf) no-repeat;
   border-radius: 0 0 36px 36px;
   .checkmark {
     display: flex;
@@ -46,8 +45,7 @@
     }
     div {
       background: transparent
-        linear-gradient(180deg, #6915cf 0%, #380e7f 100%) 0%
-        0% no-repeat;
+        linear-gradient(180deg, #6915cf, #380e7f) no-repeat;
       color: #fff;
       font-size: 2.2rem;
       border-radius: 5px;

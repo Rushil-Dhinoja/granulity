@@ -33,7 +33,7 @@ body {
 
 /** @format */
 .header {
-  background: transparent linear-gradient(180deg, #380e7f 0%, #6915cf 100%) 0% 0% no-repeat;
+  background: transparent linear-gradient(180deg, #380e7f, #6915cf) no-repeat;
   border-radius: 0 0 36px 36px; }
   .header .checkmark {
     display: flex;
@@ -69,7 +69,7 @@ body {
       color: #380e7f;
       font-weight: 400; }
     .wallet-confirm-body .content-body div {
-      background: transparent linear-gradient(180deg, #6915cf 0%, #380e7f 100%) 0% 0% no-repeat;
+      background: transparent linear-gradient(180deg, #6915cf, #380e7f) no-repeat;
       color: #fff;
       font-size: 2.2rem;
       border-radius: 5px;
