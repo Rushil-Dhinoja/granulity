@@ -619,3 +619,39 @@ label p {
             margin-bottom: 1.5rem;
             margin-top: 1rem;
             display: flex; }
+
+/** @format */
+.feedback-header-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 4rem; }
+  .feedback-header-body img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 1.5rem; }
+  .feedback-header-body p {
+    color: #fff;
+    font-family: 'Raleway', sans-serif; }
+    .feedback-header-body p:nth-of-type(1), .feedback-header-body p:nth-of-type(3) {
+      font-weight: 300;
+      font-size: 1.2rem;
+      text-align: center; }
+    .feedback-header-body p:nth-of-type(2) {
+      font-weight: 700;
+      font-size: 1.2rem;
+      text-align: center; }
+    .feedback-header-body p:nth-of-type(4) {
+      margin-top: 1.5rem;
+      font-size: 1.2rem;
+      background-color: #fff;
+      color: #380e7f;
+      align-self: flex-end;
+      margin-right: 1rem;
+      padding: 0.5rem 0.3rem;
+      border-radius: 12px; }
+      .feedback-header-body p:nth-of-type(4) span {
+        border: 1px dotted #380e7f;
+        border-radius: 12px;
+        padding: 0.2rem 0.8rem;
+        margin: 1rem 0; }
