@@ -34,6 +34,7 @@
   padding: 4rem;
   display: flex;
   flex-direction: column;
+  margin-bottom: 40rem;
   form {
     .input-group {
       display: flex;
@@ -76,7 +77,6 @@
     align-self: center;
     justify-self: center;
     margin-top: 2rem;
-    margin-bottom: 10rem;
   }
 }
 .radio-group {

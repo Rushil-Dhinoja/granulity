@@ -175,7 +175,8 @@ body {
   border-radius: 36px 36px 0 0;
   padding: 4rem;
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  margin-bottom: 40rem; }
   .profile-form form .input-group {
     display: flex;
     flex-direction: column; }
@@ -207,8 +208,7 @@ body {
     cursor: pointer;
     align-self: center;
     justify-self: center;
-    margin-top: 2rem;
-    margin-bottom: 10rem; }
+    margin-top: 2rem; }
 
 .radio-group {
   margin-right: 6rem; }
@@ -666,7 +666,8 @@ label p {
   border-radius: 7px;
   background-color: #fff;
   padding-top: 0.1rem;
-  box-shadow: 0 3px 6px #00000029; }
+  box-shadow: 0 3px 6px #00000029;
+  padding-bottom: 12rem; }
   .campaign-list div {
     margin: 0.1rem; }
     .campaign-list div p {
