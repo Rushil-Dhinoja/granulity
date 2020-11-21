@@ -665,12 +665,11 @@ label p {
 
 .campaign-list {
   height: 400px;
-  margin: -2.5rem 1rem 0 1rem;
+  margin: -2.5rem 1rem 12rem 1rem;
   border-radius: 7px;
   background-color: #fff;
   padding-top: 0.1rem;
-  box-shadow: 0 3px 6px #00000029;
-  padding-bottom: 12rem; }
+  box-shadow: 0 3px 6px #00000029; }
   .campaign-list div {
     margin: 0.1rem; }
     .campaign-list div p {
@@ -704,7 +703,9 @@ label p {
         margin-right: 3.5rem; }
     .campaign-list-data-table {
       display: flex;
-      flex-direction: column; }
+      flex-direction: column;
+      overflow-y: scroll;
+      max-height: 290px; }
       .campaign-list-data-table table {
         flex-direction: column; }
         .campaign-list-data-table table tr {
