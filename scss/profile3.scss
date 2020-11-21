@@ -81,6 +81,9 @@
 }
 .radio-group {
   margin-right: 6rem;
+  @media screen and (max-width: 335px) {
+    margin-right: 2rem;
+  }
   div {
     display: flex;
     align-items: center;
