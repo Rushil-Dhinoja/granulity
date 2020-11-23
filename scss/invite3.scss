@@ -1,6 +1,10 @@
 /** @format */
 
 .header {
+  &.invite-3 {
+    background: transparent
+      linear-gradient(180deg, #380e7f, #6915cf) no-repeat;
+  }
   .invite-body {
     display: flex;
     flex-direction: column;

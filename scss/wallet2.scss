@@ -1,6 +1,10 @@
 /** @format */
 
 .header {
+  &.wallet-2 {
+    background: transparent
+      linear-gradient(180deg, #380e7f, #6915cf) no-repeat;
+  }
   .wallet-header-body {
     display: flex;
     flex-direction: column;
@@ -38,7 +42,7 @@
       font-family: 'Raleway', sans-serif;
 
       &:nth-of-type(1) {
-        font-weight: 600;
+        font-weight: 700;
         font-size: 1.4rem;
         color: #380e7f;
       }
@@ -78,8 +82,8 @@
             padding: 1.5rem 1.2rem;
             border-radius: 10px;
             border: none;
-            box-shadow: inset 0px 11px 8px -10px rgba(#000, 0.6),
-              inset 0px -11px 8px -10px rgba(#000, 0.6);
+            box-shadow: inset 0px 11px 12px -10px rgba(#000, 0.4),
+              inset 0px -11px 12px -10px rgba(#000, 0.4);
             font-size: 1.2rem;
           }
         }

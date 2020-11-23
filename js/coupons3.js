@@ -9,6 +9,8 @@ const rightScroll = document.getElementById('right-scroll')
 const miniCarousel = document.querySelector('.mini-carousel');
 const nextCoupon = document.getElementById('next-coupon')
 const prevCoupon = document.getElementById('prev-coupon')
+
+
 const arrowClick = (e, dir) =>{
 if(dir === 'right'){
     miniCarousel.scroll({left:miniCarousel.scrollLeft+370,top:0, behavior: "smooth"})
