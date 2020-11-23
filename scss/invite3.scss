@@ -28,8 +28,9 @@
       margin-top: 2rem;
       display: flex;
       align-items: center;
-      justify-content: space-between;
+      justify-content: space-evenly;
       margin-bottom: 2rem;
+
       div {
         width: 80px;
         text-align: center;
@@ -52,6 +53,10 @@
         margin: 0 1rem;
         color: #fff;
         margin-bottom: 7rem;
+        @media screen and (max-width: 330px) {
+          margin: 0 0.2rem;
+          margin-bottom: 7rem;
+        }
       }
     }
     &-stats {
