@@ -84,10 +84,13 @@
     font-family: 'Raleway', sans-serif;
     font-size: 1.2rem;
     font-weight: 600;
+    margin-top: 2rem !important;
     &-heading {
       display: flex;
       justify-content: space-between;
       span {
+        font-size: 1.4rem;
+
         &:nth-of-type(1) {
           margin-left: 1.5rem;
         }
@@ -99,6 +102,7 @@
     &-table {
       display: flex;
       flex-direction: column;
+      margin-top: 1rem !important;
       overflow-y: scroll;
       max-height: 290px;
       table {
@@ -129,6 +133,7 @@
               }
               span {
                 margin-right: 2rem;
+                font-size: 1.4rem;
               }
             }
           }
