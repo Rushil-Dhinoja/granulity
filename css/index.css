@@ -139,7 +139,7 @@ body {
       color: #ffffff;
       padding: 2rem 0;
       font-size: 1.4rem;
-      font-family: 'Ralewat', sans-serif;
+      font-family: 'Raleway', sans-serif;
       height: 1.4rem; }
     .top-navbar a img {
       height: 1.4rem; }
@@ -376,7 +376,7 @@ label p {
             border-radius: 10px;
             border: none;
             box-shadow: inset 0px 11px 8px -10px rgba(0, 0, 0, 0.6), inset 0px -11px 8px -10px rgba(0, 0, 0, 0.6);
-            font-size: 1rem; }
+            font-size: 1.2rem; }
 
 .payment-input-head {
   margin-right: 0 !important;
@@ -685,7 +685,7 @@ label p {
       text-align: center;
       font-family: 'Raleway', sans-serif;
       font-weight: 600;
-      margin: 0.3rem 0.3rem;
+      margin: 0.1rem 0.1rem;
       padding-top: 0.3rem;
       border-radius: 7px 7px 0 0;
       display: flex;
@@ -817,7 +817,7 @@ label p {
       flex: 0 0 75%;
       margin: 0rem 1rem;
       border: 2px solid #6915cf;
-      border-radius: 30px;
+      border-radius: 20px;
       padding: 2rem 2rem 1rem 2rem;
       box-sizing: border-box;
       display: flex;
@@ -825,16 +825,18 @@ label p {
       align-items: center;
       background-color: #ccc1ff4f;
       font-family: 'Raleway', sans-serif;
-      justify-content: center; }
+      justify-content: center;
+      box-shadow: 0 3px 6px #00000029; }
       .carousel-slides .coupon img {
         width: 100%;
-        max-height: 250px; }
+        max-height: 250px;
+        margin-top: 3rem; }
     .carousel-slides .video {
       flex: 1;
       flex: 0 0 75%;
       margin: 0rem 1rem;
       border: 2px dotted #6915cf;
-      border-radius: 30px;
+      border-radius: 10px;
       padding: 2rem 2rem 1rem 2rem;
       box-sizing: border-box;
       display: flex;
@@ -859,14 +861,15 @@ label p {
       flex: 0 0 75%;
       margin: 0rem 1rem;
       border: 2px solid #6915cf;
-      border-radius: 30px;
+      border-radius: 20px;
       padding: 2rem 2rem 1rem 2rem;
       box-sizing: border-box;
       display: flex;
       flex-direction: column;
       align-items: center;
       background-color: #ccc1ff4f;
-      font-family: 'Raleway', sans-serif; }
+      font-family: 'Raleway', sans-serif;
+      box-shadow: 0 3px 6px #00000029; }
       .carousel-slides .question-heading {
         font-weight: 700;
         font-size: 2rem; }
@@ -884,7 +887,8 @@ label p {
           border-radius: 5px;
           font-size: 1.2rem;
           font-weight: 700;
-          margin-bottom: 1rem; }
+          margin-bottom: 1rem;
+          text-align: left; }
         .carousel-slides .question-body .options {
           display: flex;
           flex-direction: column; }
