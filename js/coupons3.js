@@ -11,10 +11,10 @@ const nextCoupon = document.getElementById('next-coupon')
 const prevCoupon = document.getElementById('prev-coupon')
 const arrowClick = (e, dir) =>{
 if(dir === 'right'){
-    miniCarousel.scroll({left:miniCarousel.scrollLeft+350,top:0, behavior: "smooth"})
+    miniCarousel.scroll({left:miniCarousel.scrollLeft+370,top:0, behavior: "smooth"})
 }
 if(dir==='left'){
-    miniCarousel.scroll({left:miniCarousel.scrollLeft-350,top: 0, behavior: 'smooth'})
+    miniCarousel.scroll({left:miniCarousel.scrollLeft-370,top: 0, behavior: 'smooth'})
     
 }
 }
@@ -50,7 +50,7 @@ const changeCoupon = (dir) =>{
         else if(cp3.classList.contains('active')){
             cp3.classList.remove('active')
             cp4.classList.add('active')
-            miniCarousel.scroll({left: miniCarousel.scrollLeft + 350, top: 0, behavior:'smooth'})
+            miniCarousel.scroll({left: miniCarousel.scrollLeft + 370, top: 0, behavior:'smooth'})
         }
         else if(cp4.classList.contains('active')){
             cp4.classList.remove('active')
@@ -74,7 +74,7 @@ const changeCoupon = (dir) =>{
         else if(cp4.classList.contains('active')){
             cp4.classList.remove('active')
             cp3.classList.add('active')
-            miniCarousel.scroll({left: miniCarousel.scrollLeft - 350, top: 0, behavior:'smooth'})
+            miniCarousel.scroll({left: miniCarousel.scrollLeft - 370, top: 0, behavior:'smooth'})
         }
         else if(cp3.classList.contains('active')){
             cp3.classList.remove('active')
