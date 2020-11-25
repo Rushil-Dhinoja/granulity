@@ -930,8 +930,11 @@ label p {
         .carousel-slides .question-body .options {
           display: flex;
           flex-direction: column; }
+          .carousel-slides .question-body .options .active {
+            border: 2px solid #6915cf !important; }
           .carousel-slides .question-body .options .option {
             background-color: #fff;
+            border: 2px solid transparent;
             padding: 1rem;
             border-radius: 5px;
             display: flex;
@@ -1161,10 +1164,35 @@ h2 {
     margin-top: 2rem;
     padding: 0rem 2rem 2rem 2rem;
     overflow-y: scroll;
+    overflow-x: hidden;
     height: 380px; }
     @media screen and (max-width: 330px) {
       .coupons-container .coupons-data {
         padding: 0rem 1rem 2rem 1rem; } }
+    .coupons-container .coupons-data.full-height {
+      height: 440px; }
+    .coupons-container .coupons-data .coupons-image-row {
+      display: flex; }
+      .coupons-container .coupons-data .coupons-image-row:not(:last-child) {
+        border-bottom: 1px solid #707070; }
+      .coupons-container .coupons-data .coupons-image-row div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+        padding: 2rem 0;
+        text-align: center; }
+        .coupons-container .coupons-data .coupons-image-row div:nth-of-type(1) {
+          border-right: 1px solid #707070; }
+          .coupons-container .coupons-data .coupons-image-row div:nth-of-type(1) img {
+            width: 80px; }
+        .coupons-container .coupons-data .coupons-image-row div img {
+          width: 110px; }
+        .coupons-container .coupons-data .coupons-image-row div p {
+          font-size: 1.8rem;
+          font-weight: 700;
+          font-family: 'Raleway', sans-serif;
+          padding: 3rem 1.5rem; }
     .coupons-container .coupons-data-row {
       display: flex;
       justify-content: space-around; }
